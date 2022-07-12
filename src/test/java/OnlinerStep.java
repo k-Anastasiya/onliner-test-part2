@@ -1,8 +1,4 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class OnlinerStep extends OnlinerObject {
 
@@ -13,71 +9,71 @@ public class OnlinerStep extends OnlinerObject {
 
     public boolean verifyElectronicSection() {
         findButtonCatolog().click();
-        findBurronElectronical();
+        findBurronElectronical().isDisplayed();
         return true;
     }
 
 
     public Boolean verifyComputerAndNetSection() {
         findButtonCatolog().click();
-        findButtonComputerAndNet();
+        findButtonComputerAndNet().isDisplayed();
         return true;
     }
 
     public Boolean verifyHouseAppliancesSection() {
         findButtonCatolog().click();
-        findButtonHouseholdAppliances();
+        findButtonHouseholdAppliances().isDisplayed();
         return true;
     }
 
     public Boolean verifyBuildAndRepairSection() {
         findButtonCatolog().click();
-        findButtonBuildAndRepair();
+        findButtonBuildAndRepair().isDisplayed();
         return true;
     }
 
     public Boolean verifyHouseAndGardenSection() {
         findButtonCatolog().click();
-        findButtonHouseAndGarden();
+        findButtonHouseAndGarden().isDisplayed();
         return true;
     }
 
     public Boolean verifyAutoANdMotoSection() {
         findButtonCatolog().click();
-        findButtonAutoAndMoto();
+        findButtonAutoAndMoto().isDisplayed();
         return true;
     }
 
     public Boolean verifyBeautyAndSportSection() {
         findButtonCatolog().click();
-        findButtonBeautyAndSport();
+        findButtonBeautyAndSport().isDisplayed();
         return true;
     }
 
     public Boolean verifyChildAndMamSection() {
         findButtonCatolog().click();
-        findButtonChildAndMam();
+        findButtonChildAndMam().isDisplayed();
         return true;
     }
 
     public Boolean verifyTvAndVideoSection() {
         findButtonCatolog().click();
-        findButtonTvAndVideo();
+        findButtonTvAndVideo().isDisplayed();
         return true;
     }
 
     public Boolean verifyJobAndOfficeSection() {
         findButtonCatolog().click();
-        findButtonJobAndOffice();
+        findButtonJobAndOffice().isDisplayed();
         return true;
     }
 
     public boolean verifyElementsOfComputerAndNet() {
         findButtonCatolog().click();
         findButtonComputerAndNet().click();
-        findListOfComputerAndNet();
-        return true;
-    }
+         findListOfComputerAndNet().isDisplayed();
+         return true;
+            }
 
     public  boolean verifyKomplectuuschieOfComputerAndNet() {
         findButtonCatolog().click();
